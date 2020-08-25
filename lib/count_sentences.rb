@@ -19,5 +19,4 @@ class String
   end
 end
 
-"Test... Test!! Test?" = String.new
 "Test... Test!! Test?".count_sentences
