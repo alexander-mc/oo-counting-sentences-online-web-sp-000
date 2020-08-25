@@ -15,6 +15,9 @@ class String
   end
 
   def count_sentences
-    
+    self.split(/[a-zA-Z][\.\!\?]/).count
   end
 end
+
+"Test... Test!! Test?" = String.new
+"Test... Test!! Test?".count_sentences
