@@ -19,4 +19,4 @@ class String
   end
 end
 
-"Test... Test!! Test?".count_sentences
+puts "Test... Test!! Test?".count_sentences
